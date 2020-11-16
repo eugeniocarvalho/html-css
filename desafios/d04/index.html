@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcula troco</title>
+
+  <style>
+    body {
+      font: 15pt normal Inter;
+      background-color: rgb(14, 82, 78);
+      color: white;
+      text-align: center;
+    }
+
+    button {
+      border-radius: .5rem;
+      border: none;
+
+      height: 30px;
+      background-color: rgb(211, 211, 0);
+      transition: 0.5s;
+      outline: none;
+    }
+
+    button:hover {
+      background-color: yellow
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Calculando troco</h1>
+  <button onclick="comprar()">Comprar produto</button>
+
+  <script>
+    function comprar() {
+      const nome = window.prompt('Que produto esta comprando?')
+      const preco = Number(window.prompt(`Quanto custa o ${nome} que esta comprando?`))
+      const valor = Number(window.prompt(`Qual foi o valor que você deu pra pagar o ${nome}?`))
+
+      window.alert(`Você comprou ${nome} que custou R$ ${preco}.\nDeu R$ ${valor} em dinheiro e vai  receber R$ ${valor - preco} de troco, Volte sempre!!`)
+    }
+  </script>
+</body>
+
+</html>
