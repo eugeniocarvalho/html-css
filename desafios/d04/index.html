@@ -4,45 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calcula troco</title>
+  <title>Emojis</title>
+
+  <link rel="shortcut icon" href="/desafios/d04/imagens/favicon.ico" type="image/x-icon">
 
   <style>
     body {
-      font: 15pt normal Inter;
-      background-color: rgb(14, 82, 78);
-      color: white;
+      font: 16pt normal Inter;
       text-align: center;
     }
 
-    button {
-      border-radius: .5rem;
-      border: none;
-
-      height: 30px;
-      background-color: rgb(211, 211, 0);
-      transition: 0.5s;
-      outline: none;
-    }
-
-    button:hover {
-      background-color: yellow
+    ul {
+      justify-content: center;
+      display: inline-block;
     }
   </style>
 </head>
 
 <body>
-  <h1>Calculando troco</h1>
-  <button onclick="comprar()">Comprar produto</button>
+  <h1>Meus emojis favoritos!</h1>
 
-  <script>
-    function comprar() {
-      const nome = window.prompt('Que produto esta comprando?')
-      const preco = Number(window.prompt(`Quanto custa o ${nome} que esta comprando?`))
-      const valor = Number(window.prompt(`Qual foi o valor que você deu pra pagar o ${nome}?`))
+  <h2>Carinhas</h2>
+  <ul>
+    <li>&#x1F602 Código U+1F602</li>
+    <li>&#x1F642 Código U+1F642</li>
+    <li>&#x1F914 Código U+1F914</li>
+  </ul>
 
-      window.alert(`Você comprou ${nome} que custou R$ ${preco}.\nDeu R$ ${valor} em dinheiro e vai  receber R$ ${valor - preco} de troco, Volte sempre!!`)
-    }
-  </script>
+  <h2>Mãos</h2>
+  <ul>
+    <li>&#x1F44C Código U+1F44C</li>
+    <li>&#x1F44D Código U+1F44D</li>
+    <li>&#x1F595 Código U+1F595</li>
+  </ul>
+
+  <h2>Animais</h2>
+  <ul>
+    <li>&#x1f43A Código U+1F43A</li>
+    <li>&#x1f42a Código U+1F42A</li>
+    <li>&#x1f432 Código U+1F432</li>
+  </ul>
 </body>
 
 </html>
