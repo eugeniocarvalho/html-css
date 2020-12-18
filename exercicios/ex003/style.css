@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  font: normal 13pt Arial;
+}
+
+h1 {
+  font-size: 32pt;
+}
+
+img {
+  margin: 1.2rem;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  height: 10rem;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3  );
+}
