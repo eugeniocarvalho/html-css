@@ -1,3 +1,4 @@
+
 h1 {
   text-align: center;
 }
@@ -7,17 +8,20 @@ h2 {
 }
 
 .ordenada,
-.nao-ordenada {
+.nao-ordenada, .mista, .jogo {
   font-size: 10pt;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
 }
 
 @media (min-width: 400px) {
+  body {
+    margin:1rem 10%;
+  }
 
   .ordenada,
-  .nao-ordenada {
-    font-size: 12pt;
+  .nao-ordenada, .mista, .jogo {
+    font-size: 13pt;
   }
 }
