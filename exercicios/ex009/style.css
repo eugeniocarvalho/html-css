@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding-left: 4rem;
+}
+
+.ordenada,
+.nao-ordenada {
+  font-size: 10pt;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+@media (min-width: 400px) {
+
+  .ordenada,
+  .nao-ordenada {
+    font-size: 12pt;
+  }
+}

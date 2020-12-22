@@ -4,50 +4,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Outras formatações</title>
-  <style>
-    body {
-      font: 12pt Arial;
-      margin: 2rem 3rem;
-    }
-  </style>
+  <title>Listas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Outras formatações</h1>
+  <h1>Trabalhando com listas</h1>
+  <div>
+    <h2>Listas Ordenadas</h2>
+    <div class="ordenada">
+      <div>
+        <p>Tipo númerico</p>
+        <ol type="1">
+          <li>Acordar</li>
+          <li>Ligar para João</li>
+          <li>Tomar café</li>
+          <li>Escovar os dentes</li>
+          <li>Estudar</li>
+          <li>Almoçar</li>
+          <li>Ir para faculdade</li>
+          <li>Voltar pra casa</li>
+          <li>Jantar</li>
+          <li>Dormir</li>
+        </ol>
+      </div>
 
-  <h2>Código-fonte / Pré-formatação</h2>
-  <p>O comando <code>document.getElementById('teste')</code> é escrito em JavaScript</p>
+      <div>
+        <p>Tipo Alfabética</p>
+        <ol type="A">
+          <li>Acordar</li>
+          <li>Ligar para João</li>
+          <li>Tomar café</li>
+          <li>Escovar os dentes</li>
+          <li>Estudar</li>
+          <li>Almoçar</li>
+          <li>Ir para faculdade</li>
+          <li>Voltar pra casa</li>
+          <li>Jantar</li>
+          <li>Dormir</li>
+        </ol>
+      </div>
 
-  <pre>
-    <code>
-  num = input('Digite um número: ')
+      <div>
+        <p>Tipo Romano</p>
+        <ol type="I">
+          <li>Acordar</li>
+          <li>Ligar para João</li>
+          <li>Tomar café</li>
+          <li>Escovar os dentes</li>
+          <li>Estudar</li>
+          <li>Almoçar</li>
+          <li>Ir para faculdade</li>
+          <li>Voltar pra casa</li>
+          <li>Jantar</li>
+          <li>Dormir</li>
+        </ol>
+      </div>
+    </div>
 
-  if num % 2 == 0:
-    print('O número {num} é PAR!')
-  else:
-    print('O número {num} é ÍMPAR!')
-  
-  print('Fim do Programa')
-    </code>
-  </pre>
-
-  <h2>Citações simples</h2>
-  <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
-
-  <h2>Citações compostas</h2>
-  <p>Segundo Ademilson Franchini, no seu livro Fúria nórdica: Sagas vikings:</p>
-  <blockquote
-    cite="https://books.google.com.br/books?id=Gnb-DwAAQBAJ&printsec=frontcover&dq=sagas+vikings&hl=pt-BR&sa=X&ved=2ahUKEwjSk_fY99_tAhXTGLkGHSGGAo0Q6AEwAHoECAUQAg#v=onepage&q=sagas%20vikings&f=false">
-    Quando a dor e o luto deram uma trégua, a mesa dionisiaca foi finalmente liberada e todos se lançaram a ela num
-    despudor total de vivos — graças aos deuses eles ainda respiravam e podiam comer e arrotar à vontade!
-  </blockquote>
-
-  <h2>Abreviações</h2>
-  <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-
-  <h2>Texto Invertido</h2>
-  <p>Original: Socorram-me, subi no ônibus em Marrocos</p>
-  <p><bdo dir="rtl">Socorram-me, subi no ônibus em Marrocos</bdo></p>
+    <h2>Listas Não Ordenadas</h2>
+    <div class="nao-ordenada">
+      <div>
+        <p>Tipo disc</p>
+        <ul type="disc">
+          <li>Pão</li>
+          <li>Leite</li>
+          <li>tomate</li>
+          <li>Manteiga</li>
+          <li>Arroz</li>
+          <li>Feijão</li>
+        </ul>
+      </div>
+      <div>
+        <p>Tipo circle</p>
+        <ul type="circle">
+          <li>Pão</li>
+          <li>Leite</li>
+          <li>tomate</li>
+          <li>Manteiga</li>
+          <li>Arroz</li>
+          <li>Feijão</li>
+        </ul>
+      </div>
+      <div>
+        <p>Tipo square</p>
+        <ul type="square">
+          <li>Pão</li>
+          <li>Leite</li>
+          <li>tomate</li>
+          <li>Alface</li>
+          <li>Manteiga</li>
+          <li>Arroz</li>
+          <li>Feijão</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
