@@ -13,6 +13,10 @@
       font: 14pt normal Inter;
     }
 
+    div p {
+      text-align: center;
+    }
+
     a {
       text-decoration: none;
       background-color: rgb(61, 145, 255);
@@ -25,25 +29,35 @@
       background-color: rgb(0, 110, 255);
       color: white;
     }
+
+    @media (max-width: 800px) {
+      .map img {
+        height: 15vw;
+      }
+    }
   </style>
 </head>
 
 <body>
   <h1>Desafio do Mapa</h1>
   <p>Agora chegou a hora de treinar um pouco o uso de imagens, parágrafos e quebras de linha.</p>
-  <img src="/desafios/d03/imagens/mapa03.png" alt="03">
-  <img src="/desafios/d03/imagens/mapa07.png" alt="07">
-  <img src="/desafios/d03/imagens/mapa05.png" alt="05">
-  <br>
-  <img src="/desafios/d03/imagens/mapa09.png" alt="09">
-  <img src="/desafios/d03/imagens/mapa01.png" alt="01">
-  <img src="/desafios/d03/imagens/mapa08.png" alt="08">
-  <br>
-  <img src="/desafios/d03/imagens/mapa06.png" alt="06">
-  <img src="/desafios/d03/imagens/mapa02.png" alt="02">
-  <img src="/desafios/d03/imagens/mapa04.png" alt="04">
+  <div class="map">
+    <img src="/desafios/d03/imagens/mapa03.png" alt="03">
+    <img src="/desafios/d03/imagens/mapa07.png" alt="07">
+    <img src="/desafios/d03/imagens/mapa05.png" alt="05">
+    <br>
+    <img src="/desafios/d03/imagens/mapa09.png" alt="09">
+    <img src="/desafios/d03/imagens/mapa01.png" alt="01">
+    <img src="/desafios/d03/imagens/mapa08.png" alt="08">
+    <br>
+    <img src="/desafios/d03/imagens/mapa06.png" alt="06">
+    <img src="/desafios/d03/imagens/mapa02.png" alt="02">
+    <img src="/desafios/d03/imagens/mapa04.png" alt="04">
+  </div>
 
-  <p><a href="../../index.html">Voltar</a></p>
+  <div>
+    <p><a href="../../index.html">Voltar</a></p>
+  </div>
 </body>
 
 </html>
