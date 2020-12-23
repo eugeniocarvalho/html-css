@@ -7,6 +7,40 @@
   <style>
     body {
       font: 12pt Arial;
+      text-align: center;
+    }
+
+    p {
+      margin: 1.5rem;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 0.4rem 1.2rem;
+      background-color: rgb(49, 224, 49);
+      border-radius: .4rem;
+      transition: .2s all linear;
+      -webkit-transition: .2s all linear;
+    }
+
+    a:hover {
+      background-color: forestgreen;
+      color: white;
+      font-size: 13pt;
+      box-shadow: rgba(0, 0, 0, 0.418) .1rem .2rem .4rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin: 1.3rem;
+    }
+
+    li a {
+      text-decoration: none;
+      color: black;
     }
   </style>
 </head>
@@ -15,5 +49,14 @@
   <p>Você pode acessar o meu <a href="https://github.com/eugeniocarvalho" target="_blank" rel="external">repositório público do Github</a></p>
   <p>Você pode acessar o meu <a href="https://www.linkedin.com/in/eugeniofreire/" target="_blank" rel="external">Linkedin</a> </p>
 
+  <h1>Usando links internos</h1>
+  <p>Esta é a primeira página, se você quiser, pode acessar também a minbga <a href="pag002.html" rel="next">segunda página</a></p>
+  <p>Você pode também acessar a nossa <a href="noticias/pag003.html">página de notícias</a></p>
+
+  <h1>Links para download</h1>
+  <ul>
+    <li><a href="livro/meulivro.pdf" type="application/pdf" download="meulivro.pdf">Fazer download do PDF</a></li>
+    <li><a href="livro/meulivro.zip" type="application/zip" download="meulivro.zip">Fazer download do ZIP</a></li>
+  </ul>
 </body>
 </html>
