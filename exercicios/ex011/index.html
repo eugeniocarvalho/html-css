@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias em HTML5</title>
+  <style>
+    body {
+      font: 12pt arial;
+      text-align: center;
+    }
+
+    .botao {
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .botao a {
+      text-decoration: none;
+      background-color: rgb(61, 145, 255);
+      padding: .5rem 1.8rem;
+      border-radius: .5rem;
+      transition: .2s;
+    }
+
+    .botao a:hover {
+      background-color: rgb(0, 110, 255);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Imagem dinâmica</h1>
+  <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho da página.</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+    <img src="imgs/foto-g.png" alt="Foto flexível">
+  </picture>
+
+  <p class="botao"><a href="../../index.html">Voltar</a></p>
+</body>
+</html>
