@@ -58,20 +58,6 @@ div p {
   text-align: center;
 }
 
-p a {
-  margin: auto;
-  text-decoration: none;
-  background-color: rgb(61, 145, 255);
-  padding: .5rem 1.8rem;
-  border-radius: .5rem;
-  transition: .2s;
-}
-
-p a:hover {
-  background-color: rgb(0, 110, 255);
-  color: white;
-}
-
 @media (min-width: 1100px) {
   div {
     padding-left: 8rem;
