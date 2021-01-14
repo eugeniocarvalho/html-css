@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+iframe {
+  width: 80vw;
+  height: 28vh;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  iframe {
+    width: 560px;
+    height: 316px;
+  }
+}
