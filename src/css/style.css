@@ -61,7 +61,11 @@ p a:hover {
   align-items: center;
 }
 
-@media (min-width: 1200px){
+.grid-section {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1200px) {
   .c-card {
     height: 10rem;
     width: 16rem;
